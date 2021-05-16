@@ -4,7 +4,7 @@ import os
 
 
 class SkidChecker:
-    def __init__(self, data: dict) -> None:
+    def __init__(self, data: list) -> None:
         self.data = data
 
     def _is_correct(self, _input: str, answer: str) -> bool:
